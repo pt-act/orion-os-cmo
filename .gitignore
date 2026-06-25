@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+.agents/
+*.log
+.DS_Store
+site/node_modules/
+site/.next/
+site/.next-build/
+# manifest.yml intentionally excluded — local working state; history tracked via git commits
+# manifest.yml
+/site/

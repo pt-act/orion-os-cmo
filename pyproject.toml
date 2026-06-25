@@ -1,0 +1,17 @@
+[project]
+name = "orion-os-cmo"
+version = "0.1.0"
+description = "Orion-OS CMO Edition — weekly autonomous marketing agent harness"
+requires-python = ">=3.11"
+dependencies = [
+    "fastmcp>=3.4.2",
+]
+
+# Group 1 is stdlib-only so tests run with zero install. Pydantic enters later,
+# deliberately, when we generate the MCP tool-contract schemas.
+
+[tool.uv]
+package = false
+
+[dependency-groups]
+dev = ["ruff", "mypy", "bandit"]
