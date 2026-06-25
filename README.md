@@ -1,6 +1,6 @@
 # Orion-OS · CMO Edition
 
-A weekly autonomous **marketing operator**. Give it a product URL; it reads the product
+An autonomous **marketing operator**. Give it a product URL; it reads the product
 into a strategy, runs a team of agent workers that draft review-ready work across SEO, GEO,
 content, social, code, and creator outreach, and converges everything into one prioritized
 **weekly brief** with week-over-week deltas and a human-gated approval queue.
@@ -197,16 +197,6 @@ LICENSE                MIT
 
 ---
 
-## Development model
-
-Spec-driven. Every capability is a 3-phase spec (`planning/requirements.md` → `spec.md` →
-`tasks.md`); the producer implements it; an **independent validator** (a distinct
-interpreter, pm-auditor v2.1) re-derives the acceptance criteria and the precision-owning
-gates before a spec flips to `approved` (ADR #8 — never skip the independent-validator role).
-`manifest.yml` is the index and the append-only audit trail.
-
----
-
 ## Status
 
 - **206 / 206 tests green**, modules import clean.
@@ -218,8 +208,3 @@ gates before a spec flips to `approved` (ADR #8 — never skip the independent-v
 
 See `CHANGELOG.md` for the release history and `.agents/specs/<id>/verdict.md` for the
 validation records.
-# orion-os-cmo
-# orion-os-cmo
-# orion-os-cmo
-# orion-os-cmo
-# orion-os-cmo
